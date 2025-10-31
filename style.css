@@ -60,6 +60,7 @@ form label {
   color: var(--tt-label);
   margin-bottom: 0.8rem;
   display: block;
+  font-weight: bold 2px;
 }
 
 form input {
@@ -67,7 +68,7 @@ form input {
   border: 1px solid var(--bg-input);
   background: var(--bg-input);
   padding: 1.6rem;
-  border-radius: 0.4rem;
+  border-radius: 0.9rem;
 }
 
 form input:focus {
@@ -80,4 +81,18 @@ form input::placeholder {
 
 .input-wrapper + .input-wrapper {
   margin-top: 1.6rem;
+}
+
+.button {
+  width: 30rem;
+  height: 5.2rem;
+  margin-top: 3.2rem;
+  border-radius: 0.9rem;
+  background-color: #007a9c;
+  font-size: 1.6rem;
+  color: aliceblue;
+  text-align: center;
+  font-weight: bold;
+  line-height: 5.2rem;
+  cursor: pointer;
 }
